@@ -40,6 +40,7 @@ async def last_tweet( interaction: discord.Interaction ):
     print (ishow_twitter)
    # last_tweet = response_twitter["data"]["tweets"][0]["text"]
   #  await interaction.response.send_message(last_tweet)
+  
 
 @tree.command(name="last_youtube" , description="last video")
 async def last_youtube( interaction: discord.Interaction ):
